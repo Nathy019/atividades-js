@@ -5,3 +5,12 @@ while (contador<=100){
     contador= contador + 2
     document.getElementById("resposta").innerHTML += contador +"<br>"
  }
+// outro jeito para ser impares
+// let contador = 0
+// while (contador <= 100) {
+//     if (contador % 2 == 1)
+//     {
+//         document.getElementById("resposta").innerHTML += contador + "<br>"
+//     }
+//     contador++    
+// }
